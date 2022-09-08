@@ -19,10 +19,17 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
+  color: rgb(254, 254, 254);
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+body {
+  color: rgb(255, 255, 255);
+  background-color: #bec1c5;
+  border-color: #1861ac;
+}
+
 
 /* Sticky footer styles
 -------------------------------------------------- */

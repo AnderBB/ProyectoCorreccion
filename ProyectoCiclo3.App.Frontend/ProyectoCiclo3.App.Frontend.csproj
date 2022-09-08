@@ -3,5 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
+ <ItemGroup>
+    <ProjectReference Include="..\ProyectoCiclo3.App.Persistencia\ProyectoCiclo3.App.Persistencia.csproj" />
+  </ItemGroup>
 </Project>
