@@ -1,29 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
+    "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+    "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
         "projectName": "ProyectoCiclo3.App.Dominio",
-        "projectPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Joan-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\kmilo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Joan-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kmilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -35,6 +38,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -53,33 +57,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
+    "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
         "projectName": "ProyectoCiclo3.App.Frontend",
-        "projectPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Joan-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\kmilo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Joan-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kmilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+              "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
               }
             }
           }
@@ -92,6 +99,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -110,33 +118,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+    "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
         "projectName": "ProyectoCiclo3.App.Persistencia",
-        "projectPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Joan-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\kmilo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Joan-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kmilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
+              "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
               }
             }
           }
@@ -149,6 +160,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -186,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
         }
       }
     }
