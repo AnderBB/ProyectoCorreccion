@@ -19,7 +19,7 @@ using ProyectoCiclo3.App.Frontend;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dd05b2d415fe6d44534d95b11dc828cb8f8c7530", @"/Pages/Buses/Create.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ff68fe767633e358308e5fb080a75131d781794b", @"/Pages/Buses/Create.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7fac2ae24fef211f78e08fb554a390914631813e", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Buses_Create : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
@@ -52,21 +52,20 @@ using ProyectoCiclo3.App.Frontend;
             WriteLiteral("\r\n<div class=\"text-center\">\r\n    ");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff68fe767633e358308e5fb080a75131d781794b3483", async() => {
                 WriteLiteral(@"
-  <label for=""id"" class=""form-label"">id:</label>
-  <input type=""number"" class=""form-control"" id=""id"" name=""id"" placeholder=""id"">
-  <label for=""Marca"" class=""form-label"">Marca:</label>
-  <input type=""text"" class=""form-control"" id=""marca"" name=""marca"" placeholder=""Marca"">
-  <label for=""Modelo"" class=""form-label"">Modelo:</label>
-  <input type=""number"" class=""form-control"" id=""modelo"" name=""modelo"" placeholder=""Modelo"">
-  <label for=""Kilometraje"" class=""form-label"">Kilometraje:</label>
-  <input type=""number"" class=""form-control"" id=""kilometraje"" name=""kilometraje"" placeholder=""Kilometraje"">
-  <label for=""Número de asientos"" class=""form-label"">Número de asientos:</label>
-  <input type=""number"" class=""form-control"" id=""numero_asientos"" name=""numero_asientos"" placeholder=""Número de asientos"">
-  <label for=""Placa"" class=""form-label"">Placa:</label>
-  <input type=""text"" class=""form-control"" id=""placa"" name=""placa"" placeholder=""Placa"">
-  <hr>
-  <button type=""submit"" class=""btn btn-success"">Enviar</button>");
-                WriteLiteral("\r\n");
+        <label for=""marca"" class=""form-label"">Marca:</label>
+        <input type=""text"" class=""form-control"" id=""marca"" name=""marca"" required placeholder=""Marca"">
+        <label for=""modelo"" class=""form-label"">Modelo:</label>
+        <input type=""text"" class=""form-control"" id=""modelo"" name=""modelo"" required placeholder=""Modelo"">
+        <label for=""kilometraje"" class=""form-label"">Kilometraje:</label>
+        <input type=""number"" class=""form-control"" id=""kilometraje"" name=""kilometraje"" required placeholder=""Kilometraje"">
+        <label for=""asientos"" class=""form-label"">Numero de asientos:</label>
+        <input type=""number"" class=""form-control"" id=""asientos"" name=""asientos"" required placeholder=""Numero de asientos"">
+        <label for=""placa"" class=""form-label"">Placa:</label>
+        <input type=""text"" class=""form-control"" id=""placa"" name=""placa"" required placeholder=""Placa"">
+        <hr>
+        <button type=""submit"" class=""btn btn-success"">Enviar</button>
+        
+    ");
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
@@ -82,7 +81,7 @@ using ProyectoCiclo3.App.Frontend;
             }
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
-            WriteLiteral("\r\n</div>\r\n");
+            WriteLiteral("\r\n</div>");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
@@ -94,9 +93,9 @@ using ProyectoCiclo3.App.Frontend;
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<ProyectoCiclo3.App.Frontend.Pages.FormBusModel> Html { get; private set; }
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<ProyectoCiclo3.App.Frontend.Pages.FormBusModel> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<ProyectoCiclo3.App.Frontend.Pages.FormBusModel>)PageContext?.ViewData;
-        public ProyectoCiclo3.App.Frontend.Pages.FormBusModel Model => ViewData.Model;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<ProyectoCiclo3.App.Frontend.Pages.FormBusesModel> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<ProyectoCiclo3.App.Frontend.Pages.FormBusesModel> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<ProyectoCiclo3.App.Frontend.Pages.FormBusesModel>)PageContext?.ViewData;
+        public ProyectoCiclo3.App.Frontend.Pages.FormBusesModel Model => ViewData.Model;
     }
 }
 #pragma warning restore 1591

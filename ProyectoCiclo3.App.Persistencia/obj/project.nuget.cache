@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "ItKXk/4QIDUk/Js9QTCPNQh0Dgk5WF30ZgG7WjvF3yR1zneFj6dr700WQQRpwL1iMkzJZRvsy8QGWmR+tJWqKA==",
-=======
   "dgSpecHash": "3q7xpO+OTtgLXVNN2FZyQgGrumtbmAinHaRc2wHpSTZswmhkM6pd83IshFO5L6z0Qa/wUkyoDiqRKeFA9qUlPQ==",
->>>>>>> prueba
   "success": true,
   "projectFilePath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
   "expectedPackageFiles": [

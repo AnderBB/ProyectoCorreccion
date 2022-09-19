@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "dQAI9mw6QEW3tGPA7G0hHM+9bw9lmjwN5V8GPIHMY8OJNCju+Skl2b7GH6lR3hIdUfe/n1xDkpr1khvmtxz9gg==",
-=======
   "dgSpecHash": "72LRmdnba5JBYmsKCmk+BVoEW3FBNO5/9asISq0ysXkkQqjbt/Hxu+WSiQyWc8RuDHgaYxos8nLwszDDtpoEzA==",
->>>>>>> prueba
   "success": true,
   "projectFilePath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
   "expectedPackageFiles": [

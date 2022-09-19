@@ -1,5 +1,4 @@
 using System;
-using System.ComponentModel.DataAnnotations;
 namespace ProyectoCiclo3.App.Dominio{
     public class Estaciones{
         public int id {get;set;}
