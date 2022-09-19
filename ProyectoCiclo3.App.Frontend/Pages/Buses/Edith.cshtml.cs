@@ -9,13 +9,13 @@ using ProyectoCiclo3.App.Dominio;
  
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
-    public class EditBusesModel : PageModel
+    public class EditBusModel : PageModel
     {
        private readonly RepositorioBuses repositorioBuses;
        [BindProperty]
        public Buses Buses {get;set;}
  
-        public EditBusesModel(RepositorioBuses repositorioBuses)
+        public EditBusModel(RepositorioBuses repositorioBuses)
        {
             this.repositorioBuses=repositorioBuses;
        }

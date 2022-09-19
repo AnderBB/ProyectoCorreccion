@@ -11,10 +11,10 @@ namespace ProyectoCiclo3.App.Frontend.Pages
 {
     public class DetailsBusesModel : PageModel
     {
-       private readonly RepositorioBuses repositorioBuses;
+       private RepositorioBuses repositorioBuses;
         public Buses Buses {get;set;}
  
-        public DetailsEstacionModel(RepositorioBuses repositorioBuses)
+        public DetailsBusesModel(RepositorioBuses repositorioBuses)
        {
             this.repositorioBuses=repositorioBuses;
        }
@@ -25,5 +25,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             return Page();
  
         }
+
+
     }
 }
