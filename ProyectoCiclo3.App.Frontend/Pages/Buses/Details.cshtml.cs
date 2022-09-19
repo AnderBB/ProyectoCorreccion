@@ -9,20 +9,20 @@ using ProyectoCiclo3.App.Dominio;
  
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
-    public class DetailsBusesModel : PageModel
+    public class DetailsBusModel : PageModel
     {
        private readonly RepositorioBuses repositorioBuses;
-        public Buses Buses {get;set;}
+              public Buses Bus {get;set;}
  
-        public DetailsEstacionModel(RepositorioBuses repositorioBuses)
+        public DetailsBusModel(RepositorioBuses repositorioBuses)
        {
             this.repositorioBuses=repositorioBuses;
        }
  
         public IActionResult OnGet(int busId)
         {
-            Buses=repositorioBuses.GetWithId(busId);
-            return Page();
+                Bus=repositorioBuses.GetWithId(busId);
+                return Page();
  
         }
     }

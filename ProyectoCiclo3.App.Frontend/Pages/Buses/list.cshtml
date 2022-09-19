@@ -1,42 +1,36 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.ListBusModel
 @{
 }
  
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Marca</th>
-      <th scope="col">Modelo</th>
-      <th scope="col">Kilometraje</th>
-      <th scope="col">Numero de asientos</th>
-      <th scope="col">Placa</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mazda</td>
-      <td>p25</td>
-      <td>125</td>
-      <td>32</td>
-      <td>wer 852</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Volvo</td>
-      <td>L65</td>
-      <td>75</td>
-      <td>40</td>
-      <td>asd 256</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Marco polo</td>
-      <td>D00</td>
-      <td>100</td>
-      <td>50</td>
-      <td>cft 456</td>
-    </tr>
-  </tbody>
+<h1>Listado de Buses</h1>
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Kilometraje</th>
+        <th>Numero de asiento</th>
+        <th>Placa</th>
+        <th>Acciones</th>
+    </thead>
+    @foreach (var bus in Model.Buses)
+    {
+        <tr>
+            <td>@bus.id</td>
+            <td>@bus.marca</td>
+            <td>@bus.modelo</td>
+            <td>@bus.kilometraje</td>
+            <td>@bus.numero_asientos</td>
+            <td>@bus.placa</td>
+            <td>
+              <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@bus.id">Editar</a>
+              <form method="POST">
+                  <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@bus.id">
+                  <button type="submit"class="btn btn-danger" href="">Eliminar</button>
+              </form>
+              </td>
+        </tr>
+    }
 </table>
