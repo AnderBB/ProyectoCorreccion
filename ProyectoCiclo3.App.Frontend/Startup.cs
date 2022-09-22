@@ -30,13 +30,8 @@ namespace ProyectoCiclo3.App.Frontend
             services.AddRazorPages();
             services.AddSingleton<RepositorioEstaciones, RepositorioEstaciones>();
             services.AddSingleton<RepositorioBuses, RepositorioBuses>();
-<<<<<<< HEAD
-            
-            services.AddControllersWithViews();
-=======
             services.AddSingleton<RepositorioRutas, RepositorioRutas>();
-
->>>>>>> 975e633f8d7a4ea06cfc978513f5ede722428ed4
+            services.AddControllersWithViews();
 
         }
 
