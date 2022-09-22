@@ -7,7 +7,6 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 {
     public class RepositorioBuses
     {
-        List<Buses> estaciones;
         private readonly AppContext _appContext = new AppContext();
  
         public IEnumerable<Buses> GetAll()
@@ -19,38 +18,37 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             return _appContext.Buses.Find(id);
         }
 
-        public Buses Update(Buses newBuses){
-            var buses = _appContext.Buses.Find(newBuses.id);;
-            if(buses != null){
-                buses.marca = newBuses.marca;
-                buses.modelo = newBuses.modelo;
-                buses.kilometraje = newBuses.kilometraje;
-                buses.numero_asientos = newBuses.numero_asientos;
-                
+        public Buses Update(Buses newBus){
+            var Bus = _appContext.Buses.Find(newBus.id);;
+            if(Bus != null){
+                Bus.marca = newBus.marca;
+                Bus.modelo = newBus.modelo;
+                Bus.kilometraje = newBus.kilometraje;
+                Bus.numero_asientos = newBus.numero_asientos;
+                Bus.placa = newBus.placa;
                 //Guardar en base de datos
                  _appContext.SaveChanges();
             }
-        return buses;
+        return Bus;
         }
 
-        public Buses Create(Buses newBuses)
+        public Buses Create(Buses newBus)
         {
-            var addEstacion = _appContext.Buses.Add(newBuses);
+            var addBus = _appContext.Buses.Add(newBus);
             //Guardar en base de datos
             _appContext.SaveChanges();
-            return addEstacion.Entity;
+            return addBus.Entity;
         }
 
-        public Buses Delete(int id)
+         public Buses Delete(int id)
         {
-            var buses = _appContext.Buses.Find(id);
-            if (buses != null){
-                _appContext.Buses.Remove(buses);
+            var bus = _appContext.Buses.Find(id);
+            if (bus != null){
+                _appContext.Buses.Remove(bus);
                 //Guardar en base de datos
                 _appContext.SaveChanges();
             }
             return null;
         }
-
     }
 }
