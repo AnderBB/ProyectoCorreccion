@@ -11,7 +11,7 @@ namespace ProyectoCiclo3.App.Persistencia
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
             if(!optionsBuilder.IsConfigured){
-                optionsBuilder.UseSqlServer("Server=tcp:servidorapp.database.windows.net,1433;Initial Catalog=BDAPPTRANSPORTE;Persist Security Info=False;User ID=usuariomvg83;Password=Largon-2022;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                optionsBuilder.UseSqlServer("Server=tcp:servidornube.database.windows.net,1433;Initial Catalog=Basecompartida;Persist Security Info=False;User ID=grupo7;Password=Programacion7;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
                 //optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = ProyectoCiclo3");
             }
         }

@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Uber</title>
+    <title>@ViewData["Title"] - CITY BUS</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Uber</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">CITY BUS</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,22 +28,22 @@
                     {
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/Create">Crear Estacion</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/Create"><i class="bi bi-building"></i>Crear Estacion</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/List">Listar Estaciones</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/List">Mis Estaciones</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/Create">Crear ruta</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/Create">Crear Ruta</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/List">Listado rutas</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/List">Mis Rutas</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Buses/Create">Crear Bus</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Buses/List">Listado Buses</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Buses/List">Parque</a>
                         </li>
                     </ul>
                     }

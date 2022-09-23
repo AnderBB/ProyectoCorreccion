@@ -35,3 +35,6 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+/ProyectoCiclo3.App.Persistencia/AppRepositorios/AppContext.cs
+/ProyectoCiclo3.App.Consola
+/ProyectoCiclo3.App.Dominio
