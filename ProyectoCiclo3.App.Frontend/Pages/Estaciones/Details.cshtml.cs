@@ -12,12 +12,12 @@ using Microsoft.AspNetCore.Authorization;
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
     [Authorize]
-    public class DetailsEstacionModel : PageModel
+    public class DetailsEstacionesModel : PageModel
     {
        private readonly RepositorioEstaciones repositorioEstaciones;
         public Estaciones Estacion {get;set;}
  
-        public DetailsEstacionModel(RepositorioEstaciones repositorioEstaciones)
+        public DetailsEstacionesModel(RepositorioEstaciones repositorioEstaciones)
        {
             this.repositorioEstaciones=repositorioEstaciones;
        }

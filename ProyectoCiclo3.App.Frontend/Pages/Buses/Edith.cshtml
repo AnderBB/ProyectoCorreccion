@@ -1,13 +1,12 @@
 @page
 @model ProyectoCiclo3.App.Frontend.Pages.EditBusModel
 @{
-    var bus = Model.Buses;
+    var bus = Model.Bus;
 }
  
 <div class="text-center">
 <form method="POST">
-  <label for="id" class="form-label">id:</label>
-  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@bus.id">
+  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@bus.id" readonly>
   <label for="Marca" class="form-label">Marca:</label>
   <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca" asp-for="@bus.marca">
   <label for="Modelo" class="form-label">Modelo:</label>
@@ -19,6 +18,6 @@
   <label for="Placa" class="form-label">Placa:</label>
   <input type="text" class="form-control" id="Placa" name="placa" placeholder="placa" asp-for="@bus.placa">
   <hr>
-  <button type="submit" class="btn btn-success">Enviar</button>
+  <button type="submit" class="btn btn-success">Actualizar</button>
 </form>
 </div>
