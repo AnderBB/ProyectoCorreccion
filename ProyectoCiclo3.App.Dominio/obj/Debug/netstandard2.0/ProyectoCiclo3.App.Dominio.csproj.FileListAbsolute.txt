@@ -17,3 +17,12 @@ C:\Users\kmilo\Desktop\Mintic\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\
 C:\Users\kmilo\Desktop\Mintic\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\Users\kmilo\Desktop\Mintic\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
 C:\Users\kmilo\Desktop\Mintic\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
