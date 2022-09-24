@@ -1,14 +1,25 @@
 @page
-@model ProyectoCiclo3.App.Frontend.Pages.DetailsEstacionModel
+@model ProyectoCiclo3.App.Frontend.Pages.FormEstacionesModel
 @{
-    var estacion = Model.Estacion;
 }
- 
-<ul class="list-group list-group-flush">
-  <li class="list-group-item"> <b>id: </b> @estacion.id</li>
-  <li class="list-group-item"> <b>Nombre: </b> @estacion.nombre</li>
-  <li class="list-group-item"> <b>Direccion: </b> @estacion.direccion</li>
-  <li class="list-group-item"><b>Coordenada X: </b> @estacion.coord_x</li>
-  <li class="list-group-item"><b>Coordenada Y: </b> @estacion.coord_y</li>
-  <li class="list-group-item"><b>Tipo: </b> @estacion.tipo</li>
-</ul>
+
+<div class="text-center">
+    <form method = "POST">
+        <label for="nombre" class = "form-label">Nombre:</label>
+        <input type="text" class="form-control" required placeholder="Nombre" minlength="3" asp-for="Estacion.nombre">
+        <label for="direccion" class="form-label">Direccion:</label>
+        <input type="text" class="form-control" required placeholder="Direccion" asp-for="Estacion.direccion">
+        <label for="coord_x" class="form-label">Coordenada X:</label>
+        <input type="number" class="form-control" required placeholder="Coordenada X" asp-for="Estacion.coord_x" step="any">
+        <label for="coord_y" class="form-label">Coordenada Y:</label>
+        <input type="number" class="form-control" required placeholder="Coordenada Y" asp-for="Estacion.coord_y" step="any">
+        <label for="tipo">Tipo:</label>
+        <select class="form-control" asp-for="Estacion.tipo">
+            <option value="">Seleccione el Tipo</option>
+            <option value="Principal">Principal</option>
+            <option value="Segundaria">Segundaria</option>
+        </select>
+        <hr>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+</div>
