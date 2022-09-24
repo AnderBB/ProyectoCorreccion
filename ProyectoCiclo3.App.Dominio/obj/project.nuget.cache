@@ -1,18 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2pUJt1hEPfiGGW5tDII/p7dZstUJEqaESGjUnsuo3e53+9WDMteGtYGZ7dMZYUxDPge6g3ggB9mWCgO3TRG2/Q==",
+  "dgSpecHash": "6u2FnfNNl6XkN0Xw55hvrfMGnNKFNt6Da5VCWi09FLCO/JwCghB20A0rMK0W+P0OpRr3KHPBrfO5J1hiDlQh6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Joan-\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Joan-\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\kmilo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kmilo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\Joan-\\OneDrive\\Escritorio\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
