@@ -23,3 +23,15 @@ C:\Users\kmilo\Desktop\Mintic\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia
 C:\Users\kmilo\Desktop\Mintic\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
 C:\Users\kmilo\Desktop\Mintic\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
 C:\Users\kmilo\Desktop\Mintic\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.deps.json
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfo.cs
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+C:\Users\Joan-\OneDrive\Escritorio\Pro\ProyectoCorreccion\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb

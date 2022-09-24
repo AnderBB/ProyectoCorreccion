@@ -8971,34 +8971,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kmilo\\.nuget\\packages\\": {}
+    "C:\\Users\\Joan-\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\Pro\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
       "projectName": "ProyectoCiclo3.App.Frontend",
-      "projectPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\kmilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\obj\\",
+      "projectPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\Pro\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Joan-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\Pro\\ProyectoCorreccion\\ProyectoCiclo3.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kmilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Joan-\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\kmilo\\Desktop\\Mintic\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+            "C:\\Users\\Joan-\\OneDrive\\Escritorio\\Pro\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\Joan-\\OneDrive\\Escritorio\\Pro\\ProyectoCorreccion\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
             }
           }
         }
@@ -9011,7 +9008,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -9064,7 +9060,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
       }
     }
   }
